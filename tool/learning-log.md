@@ -28,9 +28,17 @@
 * $(".test").hide() - hides all elements with class="test".
 
 * $("#test").hide() - hides the element with id="test".
-### X/X/XX:
-* Text
+### 10/27:
+*During this day i was basically just looking around all the possible of J-query.
+<p> jQuery has the ability of java script like function</p>
+* heading.style.color = "blue"; changes the heading color to red when clicked
 
+* <button id="myButton">Click on me!</button> this creates a button that has the phrase click on me
+
+*  heading.textContent = "Click on me again!"; changes the phrase into click on me again
+
+<p> this makes it which when you first click on the button you start with click on me but when you click again it says click on me again but its blue </p>
+<p>I am just testing what J query has to offer but now i would follow every lesson rather than randomly tinker.</p>
 
 <!-- 
 * Links you used today (websites, videos, etc)
