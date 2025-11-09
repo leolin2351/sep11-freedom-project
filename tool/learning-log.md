@@ -32,7 +32,7 @@
 *During this day i was basically just looking around all the possible of J-query.
 <p> jQuery has the ability of java script like function</p>
 
-* heading.style.color = "blue"; changes the heading color to red when clicked
+* heading.style.color = "blue"; changes the heading color to blue when clicked
 
 * <button id="myButton">Click on me!</button> this creates a button that has the phrase click on me
 
