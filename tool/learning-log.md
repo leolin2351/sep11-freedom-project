@@ -42,23 +42,40 @@
 
 <p>I am just testing what J query has to offer but now i would follow every lesson rather than randomly tinker.</p>
 ### 11/10:
-<h4>jQuery Selector:<h4>
+
+<h4>jQuery Selector:</h4>
+
 * jQuery selectors allow you to select and manipulate HTML element(s).
+
 * jQuery selectors are used to "find" (or select) HTML elements based on their name, id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors
+
 * The jQuery element selector selects elements based on the element name.
+
 <p>here are some codes and the function:</p>
-*$("*")	Selects all elements
-*$(this)Selects the current HTML element
-*$("p.intro")Selects all <p> elements with class="intro"
-*$("p:first")Selects the first <p> element
-*$("ul li:first")Selects the first <li> element of the first <ul>
-*$("ul li:first-child")	Selects the first <li> element of every <ul>
-*$("[href]")Selects all elements with an href attribute
-*$("a[target='_blank']")Selects all <a> elements with a target attribute value equal to "_blank"
-*$("a[target!='_blank']")Selects all <a> elements with a target attribute value NOT equal to "_blank"
-*$(":button")selects all <button> elements and <input> elements of type="button"
-*$("tr:even")Selects all even <tr> elements
-*$("tr:odd")Selects all odd <tr> elements
+
+* $("*")Selects all elements
+
+* $(this)Selects the current HTML element
+
+* $("p.intro")Selects all <p> elements with class="intro"
+
+* $("p:first")Selects the first <p> element
+
+* $("ul li:first")Selects the first <li> element of the first <ul>
+
+* $("ul li:first-child")	Selects the first <li> element of every <ul>
+
+* $("[href]")Selects all elements with an href attribute
+
+* $("a[target='_blank']")Selects all <a> elements with a target attribute value equal to "_blank"
+
+* $("a[target!='_blank']")Selects all <a> elements with a target attribute value NOT equal to "_blank"
+
+* $(":button")selects all <button> elements and <input> elements of type="button"
+
+* $("tr:even")Selects all even <tr> elements
+
+* $("tr:odd")Selects all odd <tr> elements
 
 <!--
 * Links you used today (websites, videos, etc)
