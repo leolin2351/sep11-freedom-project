@@ -21,27 +21,27 @@
 <h4>jQuery Syntax:</h4>
 <p>The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s).Examples:</p>
 
-* $(this).hide() - hides the current element.
+* `$(this).hide() - hides the current element.`
 
-* $("p").hide() - hides all paragraph elements.
+* `$("p").hide() - hides all paragraph elements.`
 
-* $(".test").hide() - hides all elements with class="test".
+* `$(".test").hide() - hides all elements with class="test".`
 
-* $("#test").hide() - hides the element with id="test".
+* `$("#test").hide() - hides the element with id="test".`
 ### 10/27:
 *During this day i was basically just looking around all the possible of J-query.
 <p> jQuery has the ability of java script like function</p>
 
-* heading.style.color = "blue"; changes the heading color to blue when clicked
+* `heading.style.color = "blue";` changes the heading color to blue when clicked
 
-* <button id="myButton">Click on me!</button> this creates a button that has the phrase click on me
+* `<button id="myButton">Click on me!</button>` this creates a button that has the phrase click on me
 
-*  heading.textContent = "Click on me again!"; changes the phrase into click on me again
+*  `heading.textContent = "Click on me again!";` changes the phrase into click on me again
 
 <p> this makes it which when you first click on the button you start with click on me but when you click again it says click on me again but its blue </p>
 
 <p>I am just testing what J query has to offer but now i would follow every lesson rather than randomly tinker.</p>
-### 11/10:
+<h3>11/10:</h3>
 
 <h4>jQuery Selector:</h4>
 
@@ -53,30 +53,54 @@
 
 <p>here are some codes and the function:</p>
 
-* $("*")Selects all elements
+* `$("*")Selects all elements`
 
-* $(this)Selects the current HTML element
+* `$(this)Selects the current HTML element`
 
-* $("p.intro")Selects all <p> elements with class="intro"
+* `$("p.intro")Selects all <p> elements with class="intro"`
 
-* $("p:first")Selects the first <p> element
+* `$("p:first")Selects the first <p> element`
 
-* $("ul li:first")Selects the first <li> element of the first <ul>
+* `$("ul li:first")Selects the first <li> element of the first <ul>`
 
-* $("ul li:first-child")	Selects the first <li> element of every <ul>
+* `$("ul li:first-child")	Selects the first <li> element of every </ul>`
 
-* $("[href]")Selects all elements with an href attribute
+* `$("[href]")Selects all elements with an href attribute`
 
-* $("a[target='_blank']")Selects all <a> elements with a target attribute value equal to "_blank"
+* `$("a[target='_blank']")Selects all <a> elements with a target attribute value equal to "_blank"`
 
-* $("a[target!='_blank']")Selects all <a> elements with a target attribute value NOT equal to "_blank"
+* `$("a[target!='_blank']")Selects all <a> elements with a target attribute value NOT equal to "_blank"`
 
-* $(":button")selects all <button> elements and <input> elements of type="button"
+* `$(":button")selects all <button> elements and <input> elements of type="button"`
 
-* $("tr:even")Selects all even <tr> elements
+* `$("tr:even")Selects all even <tr> elements`
 
-* $("tr:odd")Selects all odd <tr> elements
+* `$("tr:odd")Selects all odd <tr> elements`
 
+### 10/17:
+<h4>Jquery Events:</h4>
+
+* All the different visitors' actions that a web page can respond to are called events.
+
+* An event represents the precise moment when something happens.
+
+<h4>Here are the codes and properties</h4>
+
+* click()
+
+   * The `click()` method attaches an event handler function to an HTML element.
+
+   * The function is executed when the user clicks on the HTML element.
+
+   * The following example says: When a click event fires on a `<p> element; hide the current <p>` element:
+* dblclick()
+
+   * The `dblclick()` method attaches an event handler function to an HTML element.
+ 
+   * The function is executed when the user double-clicks on the HTML element
+
+*
+`
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
