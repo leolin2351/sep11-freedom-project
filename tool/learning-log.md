@@ -99,12 +99,52 @@
  
    * The function is executed when the user double-clicks on the HTML element
 
-*
-`
-<!--
-* Links you used today (websites, videos, etc)
-* Things you tried, progress you made, etc
-* Challenges, a-ha moments, etc
-* Questions you still have
-* What you're going to try next
--->
+* mouseenter()
+
+  * The `mouseenter()` method attaches an event handler function to an HTML element.
+ 
+  * The function is executed when the mouse pointer enters the HTML element.
+ 
+* mouseleave()
+
+  * The `mouseleave()` method attaches an event handler function to an HTML element.
+
+  * The function is executed when the mouse pointer leaves the HTML element.
+
+* mousedown()
+
+  * The `mousedown()` method attaches an event handler function to an HTML element.
+
+  * The function is executed, when the left, middle or right mouse button is pressed down, while the mouse is over the HTML element
+ 
+* mouseup()
+
+  * The `mouseup()` method attaches an event handler function to an HTML element.
+
+  * The function is executed, when the left, middle or right mouse button is released, while the mouse is over the HTML element
+ 
+* hover()
+
+  * The `hover()` method takes two functions and is a combination of the mouseenter() and mouseleave() methods.
+
+  * The first function is executed when the mouse enters the HTML element, and the second function is executed when the mouse leaves the HTML element
+ 
+* focus()
+
+  * The `focus()` method attaches an event handler function to an HTML form field.
+
+  * The function is executed when the form field gets focus:
+ 
+* blur()
+
+  * The `blur()` method attaches an event handler function to an HTML form field.
+
+  * The function is executed when the form field loses focus:
+ 
+* on()
+
+  * The `on()` method attaches one or more event handlers for the selected elements.
+
+  * Attach a click event to a <p> element
+ 
+  <p>I learned that An event represents the precise moment when something happens allowing moving a mouse over an element, selecting a radio button, and clicking on an element </p>
