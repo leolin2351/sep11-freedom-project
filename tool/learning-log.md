@@ -77,7 +77,7 @@
 
 * `$("tr:odd")Selects all odd <tr> elements`
 
-### 10/17:
+### 11/17:
 <h4>Jquery Events:</h4>
 
 * All the different visitors' actions that a web page can respond to are called events.
