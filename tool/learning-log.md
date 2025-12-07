@@ -148,3 +148,30 @@
   * Attach a click event to a <p> element
  
   <p>I learned that An event represents the precise moment when something happens allowing moving a mouse over an element, selecting a radio button, and clicking on an element </p>
+
+  ### 12/1/25
+
+  ## JQUERY EFFECTS:
+
+  <h4>Hide and Show</h4>
+  <p>With jQuery, you can hide and show HTML elements with the hide() and show() methods:</p>
+
+  ```js
+  $(selector).hide(speed,callback);
+
+  $(selector).show(speed,callback);
+  ```
+
+<p>The optional speed parameter specifies the speed of the hiding/showing, and can take the following values: "slow", "fast", or milliseconds.</p>
+<p>The optional callback parameter is a function to be executed after the hide() or show() method completes.</p>
+
+* jQuery toggle()
+
+  * You can also toggle between hiding and showing an element with the toggle() method.
+
+ ```js
+$("button").click(function(){
+  $("p").toggle();
+});
+ ```
+<p>This is everything for Hide and Show</p>
