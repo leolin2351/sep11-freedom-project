@@ -26,7 +26,13 @@ $("button").click(function(){
 });
  ```
 <p>This is everything for Hide and Show</p>
+<h3>EDP:</h3>
+In this EDP im still on step 3 which is possible solutions because i have to first master JQUERY inorder to move on but im still trying to learn it so i have to tinker around with JQUERY and finish solutions to my topic whihc is preventing elderly scam. I belive throughout my time using JQUERY in a few more month i can finally move on to the next step but right now im happy where i am because to build something nice i have to take steps and if i step takes long that means i have many different solutions in the future.
+<h3>SKILLS</h3>
 
+* how to use google
+* self learn
+<p>These are teh 2 skills i learn throughout my journey in this blog because not many people used jQUery before which makes it very hard to communcation promblems with them. SO i mainly force on slef learning because it can help me understand much better than someone who mastered it. Another thing i learned was using google because when researching i always type JQUERY+EFFECTS because it can bring me to relablie sources unlike just searching up jquery because there are many different types of prperty with jquery and it would be hard to find the property im trying to learn.</p>
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
