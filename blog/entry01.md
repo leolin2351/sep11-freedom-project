@@ -24,7 +24,7 @@ $("button").click(function(){
   $("p").toggle();
 });
  ```
-<p>This is everything for Hide and Show</p>
+<p>My goal for winter break is to continue to learn about my tool because JQuery has alot of codes that i need to master inorder to began a small project like making a small question and answer. This goal is possible during the winter break because i have nothing to do but i have alot of interest in the functidmental of jQuery.
 <h3>EDP:</h3>
 In this EDP im still on step 3 which is possible solutions because i have to first master JQUERY inorder to move on but im still trying to learn it so i have to tinker around with JQUERY and finish solutions to my topic which is preventing elderly scam. I believe throughout my time using JQUERY in a few more months I can finally move on to the next step but right now im happy where i am because to build something nice i have to take steps and if i step takes long that means i have many different solutions in the future.
 <h3>SKILLS</h3>
