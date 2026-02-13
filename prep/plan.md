@@ -1,21 +1,32 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: jQuery
+## Product: Prevention of Elderly Scam
 
 ---
 
 ## Timeline
-
+- [during break i would finish learning my tools]
+- [i would watch some youtube video to learn more about my tools during the break]
+- [i would start my project after the break]
+- [every weekend i will try to include something into my project]
+- [start after break]
+- [finish by last week of march]
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
-
+- [To record the answer the user has put and make a connection with all the answers the user puts](must be done by march)
+- [I would use things from jQuery events and DOM pratice](throughout my project)
+- [I would create a question and answer form](when i start my project)
+- [I would want to make sure i store what the user answer choices, when they click sumbit or next question](must be done by march)
+- [I would to make a prompt or alert the user so the user knows what it is](start of my project)
+- [Create a loop so the user can redo the form](must be done by march)
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [add background colors ](when i finish my project)
+  - [add a text font ](when i finish my project)
+  - [center my questions and answer](when i finish my project)
+  - [test it with some elderly who have experience it](when i finish my project)
+  -
 
 
 <!-- EXAMPLE
@@ -49,7 +60,7 @@
 
 <!-- DO NOT USE THIS YET
 
-#### Peer Feedback 
+#### Peer Feedback
 
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
