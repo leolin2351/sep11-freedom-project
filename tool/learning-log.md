@@ -60,6 +60,27 @@
 *$("tr:even")Selects all even <tr> elements
 *$("tr:odd")Selects all odd <tr> elements
 
+### 3/8/2026
+<h4>Jquery HTML:</h4>
+* Get Content - text(), html(), and val()
+<p>Three simple, but useful, jQuery methods for DOM manipulation are:</p>
+
+* text() - Sets or returns the text content of selected elements
+* html() - Sets or returns the content of selected elements (including HTML markup)
+* val() - Sets or returns the value of form fields
+
+<p>Get Attributes - The jQuery attr() method is used to get attribute values.</p>
+
+<h4>jQuery - Set Content and Attributes</h4>
+* The jQuery attr() method is also used to set/change attribute values.
+
+<p>The jQuery method attr(), also comes with a callback function. The callback function has two parameters: the index of the current element in the list of elements selected and the original (old) attribute value. You then return the string you wish to use as the new attribute value from the function.</p>
+
+<h4>Add New HTML Content</h4>
+* append() - Inserts content at the end of the selected elements
+* prepend() - Inserts content at the beginning of the selected elements
+* after() - Inserts content after the selected elements
+* before() - Inserts content before the selected elements
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
