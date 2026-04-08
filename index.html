@@ -32,7 +32,7 @@
             // JS
 
             $("#continue").click(function(){
-                let s = $("input[name='age']").value();
+                let s = $("input[name='age']:checked").value(); 
                 if (s) {
                     window.location.href = s;
                 }
