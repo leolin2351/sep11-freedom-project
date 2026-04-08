@@ -81,6 +81,9 @@
 * prepend() - Inserts content at the beginning of the selected elements
 * after() - Inserts content after the selected elements
 * before() - Inserts content before the selected elements
+
+### 3/23
+<p>i restarted my code because it was confusing for the system to understand my line of code cause it repeats</p>
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc

@@ -26,7 +26,7 @@
   - [add a text font ](when i finish my project)
   - [center my questions and answer](when i finish my project)
   - [test it with some elderly who have experience it](when i finish my project)
-  -
+
 
 
 <!-- EXAMPLE
