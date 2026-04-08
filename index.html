@@ -32,9 +32,12 @@
             // JS
 
             $("#continue").click(function(){
-                let s = $("input[name='age']:checked").value(); 
+                let s = $(input[name='age']).value();
+                console.log(s)
                 if (s) {
                     window.location.href = s;
+                } else {
+                    alert("Select one of the following age group")
                 }
             })
                 
