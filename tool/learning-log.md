@@ -76,18 +76,50 @@
 
 <p>The jQuery method attr(), also comes with a callback function. The callback function has two parameters: the index of the current element in the list of elements selected and the original (old) attribute value. You then return the string you wish to use as the new attribute value from the function.</p>
 
+<<<<<<< HEAD
+=======
+```js
+>>>>>>> 5d43c758397f0f624706c0228df46eb8bb4cd839
 <h4>Add New HTML Content</h4>
 * append() - Inserts content at the end of the selected elements
 * prepend() - Inserts content at the beginning of the selected elements
 * after() - Inserts content after the selected elements
 * before() - Inserts content before the selected elements
+<<<<<<< HEAD
 
 ### 3/23
 <p>i restarted my code because it was confusing for the system to understand my line of code cause it repeats</p>
+=======
+>>>>>>> 5d43c758397f0f624706c0228df46eb8bb4cd839
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
 * Challenges, a-ha moments, etc
 * Questions you still have
 * What you're going to try next
+```
+
+### 3/22/2026
+
+<h4>How to switch files using jQuery/ Java script</h4>
+
+* `window.location.href = "teenager.html";`
+
+<p>This something useful i learned without w3schools because i needed this code to link when the user clicks continue then it would put them in the correct files base on their age.</p>
+
+```js 
+* Text
+*$.value
+* Radio
+.checked
+.value
+.querySelectorAll('input[name="radio-name"]')
+This selects all “multiple choice” options in a single group
+.querySelector('input[name="radio-name"]:checked')
+This selects which one is currently checked
+Select (dropdown)
+Event: "change"
+.value
+```
+<p>using notes from DOM inputs</p>
 -->
