@@ -67,9 +67,10 @@
             <input type="radio" name="question6" value="wrong"> They enjoy being scammed.<br>
             <input type="radio" name="question6" value="wrong"> They are required by law to stay silent.<br>
             <input type="radio" name="question6" value="right"> They may feel embarrassed or ashamed.<br>
-            <button class ="next">next</button>
             <button class ="back">back</button>
+            <button class ="sumbit">sumbit</button>
         </div>
+        <h3 id = "endText"></h3> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="script.js"></script> -->
         <script>
@@ -77,17 +78,32 @@
             $(document).ready(function(){ // .ready allows jquery to run when the page is fully loaded
                 let c = 1 // current amount of questions
                 let t = 6 //total amount of questions
+                var r = 0 // number right answer
                 $(".question").hide() // hide all the questions 
                 $("#q" + c).show() // showing the current 
                 $(".next").click(function(){ //next button
-                    $("#q"+c).hide();
-                    c++
-                    $("#q"+c).show(); 
+                    if(c < 6){
+                        $("#q"+c).hide();
+                        c++
+                        $("#q"+c).show();     
+                    }
+                    
                 })
                 $(".back").click(function(){ //back button
-                    $("#q"+c).hide();
-                    c--
-                    $("#q"+c).show(); 
+                    if(c > 1){
+                        $("#q"+c).hide();
+                        c--
+                        $("#q"+c).show();     
+                    }
+                })
+                $(".sumbit").click(function(){
+                    for (let i = 0; i < 6; i++){
+                        if($("input[name='question"+ i +"']:checked").val() == "right"){
+                        r++ 
+                        }
+                    }
+                    $("#q"+c).hide()
+                    $("#endText").text("You got "+r+" right")  
                 })
             })
             

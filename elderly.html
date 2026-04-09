@@ -20,7 +20,7 @@
         <div class= "question" id= "q1">
             <h3>If someone calls and asks for your bank information, what should you do?</h3>
             <input type="radio" name="question1" value="wrong"> Give them the information to help them.<br>
-            <input type="radio" name="question1" value="correct"> Hang up and contact your bank directly.<br>
+            <input type="radio" name="question1" value="right"> Hang up and contact your bank directly.<br>
             <input type="radio" name="question1" value="wrong"> Ask them to call back later.<br>
             <button class ="next">next</button>
         </div>
@@ -29,14 +29,14 @@
             <h3>You receive a message saying you won a prize but must pay a fee. What should you do?</h3>
             <input type="radio" name="question2" value="wrong"> Pay the fee to receive the prize.<br>
             <input type="radio" name="question2" value="wrong"> Share it with friends.<br>
-            <input type="radio" name="question2" value="correct"> Ignore it because it is likely a scam.<br>.<br>
+            <input type="radio" name="question2" value="right"> Ignore it because it is likely a scam.<br>.<br>
             <button class ="next">next</button>
             <button class ="back">back</button>
         </div>
         <!-- question 3 -->
         <div class= "question" id= "q3">
             <h3>What is a warning sign of a scam?</h3>
-            <input type="radio" name="question3" value="correct"> Someone asks for money urgently.<br>
+            <input type="radio" name="question3" value="right"> Someone asks for money urgently.<br>
             <input type="radio" name="question3" value="wrong"> A message from your known bank account.<br>
             <input type="radio" name="question3" value="wrong"> A bill you were expecting.<br>
             <button class ="next">next</button>
@@ -46,7 +46,7 @@
         <div class= "question" id= "q4">
             <h3>If someone says they are a family member in trouble and need money, what should you do?</h3>
             <input type="radio" name="question4" value="wrong"> Send money right away.<br>
-            <input type="radio" name="question4" value="correct"> Call the family member directly to confirm.<br>
+            <input type="radio" name="question4" value="right"> Call the family member directly to confirm.<br>
             <input type="radio" name="question4" value="wrong"> Share your personal information.<br>
             <button class ="next">next</button>
             <button class ="back">back</button>
@@ -55,7 +55,7 @@
         <div class= "question" id= "q5">
             <h3>What should you do if you think you were scammed?</h3>
             <input type="radio" name="question5" value="wrong"> Keep it a secret.<br>
-            <input type="radio" name="question5" value="correct"> Contact your bank and tell someone you trust.<br>
+            <input type="radio" name="question5" value="right"> Contact your bank and tell someone you trust.<br>
             <input type="radio" name="question5" value="wrong"> Do nothing.<br>
             <button class ="next">next</button>
             <button class ="back">back</button>
@@ -65,10 +65,11 @@
             <h3>Who should you trust with your personal information?</h3>
             <input type="radio" name="question6" value="wrong"> Anyone who asks politely.<br>
             <input type="radio" name="question6" value="wrong"> Strangers on the phone.<br>
-            <input type="radio" name="question6" value="correct"> Only trusted people and verified organizations.<br>
-            <button class ="next">next</button>
+            <input type="radio" name="question6" value="right"> Only trusted people and verified organizations.<br>
             <button class ="back">back</button>
+            <button class ="sumbit">sumbit</button>
         </div>
+        <h3 id = "endText"></h3> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- <script src="script.js"></script> -->
         <script>
@@ -76,17 +77,32 @@
             $(document).ready(function(){ // .ready allows jquery to run when the page is fully loaded
                 let c = 1 // current amount of questions
                 let t = 6 //total amount of questions
+                var r = 0 // number right answer
                 $(".question").hide() // hide all the questions 
                 $("#q" + c).show() // showing the current 
                 $(".next").click(function(){ //next button
-                    $("#q"+c).hide();
-                    c++
-                    $("#q"+c).show(); 
+                    if(c < 6){
+                        $("#q"+c).hide();
+                        c++
+                        $("#q"+c).show();     
+                    }
+                    
                 })
                 $(".back").click(function(){ //back button
-                    $("#q"+c).hide();
-                    c--
-                    $("#q"+c).show(); 
+                    if(c > 1){
+                        $("#q"+c).hide();
+                        c--
+                        $("#q"+c).show();     
+                    }
+                })
+                $(".sumbit").click(function(){
+                    for (let i = 0; i < 6; i++){
+                        if($("input[name='question"+ i +"']:checked").val() == "right"){
+                        r++ 
+                        }
+                    }
+                    $("#q"+c).hide()
+                    $("#endText").text("You got "+r+" right")  
                 })
             })
             
