@@ -1,5 +1,5 @@
 .bg {
-    background-color: lightblue;
+    background-color: lightcyan;
     }
 .questions{
     font-size: 48px;
@@ -17,14 +17,17 @@ input[type="button"], .next, .back {
 input[type="radio"] {
     transform: scale(2);
 }
-.right {
+label.right {
     background-color: lightgreen;
     padding: 5px;
     border-radius: 5px;
 }
 
-.wrong {
+label.wrong {
     background-color: red;
     padding: 5px;
     border-radius: 5px;
+}
+.question {
+    display: none;
 }

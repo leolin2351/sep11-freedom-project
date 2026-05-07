@@ -12,7 +12,7 @@
 
         </style>
 
-        <title>Title</title>
+        <title>Teenager</title>
     </head>
     <body class="bg">
         <!-- HTML -->
@@ -173,12 +173,13 @@
                         $("#q"+c).show();     
                     }
                 })
-                let r = 0;
+                
                 $(".submit").click(function(){
+                    var r = 0;
                     for (let i = 1; i <= 6; i++){
                         let selected = $("input[name='question" + i + "']:checked");
-                        let right = $("input[name='question"+ i +"'):checked");
-                        if(selected.val()==="right"){
+                        let correct = $("input[name='question" + i + "'][value='right']");
+                        if (selected.length && selected.val() === "right") {
                             r++;
                             selected.parent().addClass("right");
                         } else {
