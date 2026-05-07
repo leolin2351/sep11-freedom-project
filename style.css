@@ -1,9 +1,11 @@
 .bg {
-    background-color: lightblue;
-}
-.questions{
-    font-size: 200px;
-}
-.question{
-    background-color: black;
+        background-color: lightblue;
+        }
+        .questions{
+            font-size: 48px;
+                text-align: center;
+                }
+                .question{
+                    padding: 50px;
+                    }
 }
