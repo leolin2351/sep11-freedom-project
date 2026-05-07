@@ -1,11 +1,30 @@
 .bg {
-        background-color: lightblue;
-        }
-        .questions{
-            font-size: 48px;
-                text-align: center;
-                }
-                .question{
-                    padding: 50px;
-                    }
+    background-color: lightblue;
+    }
+.questions{
+    font-size: 48px;
+    text-align: center;
+    }
+.question{
+    padding: 50px;
+    }
+input[type="button"], .next, .back {
+    transform: scale(1);
+}
+input[type="button"], .next, .back {
+    margin: 5px;
+}
+input[type="radio"] {
+    transform: scale(2);
+}
+.right {
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.wrong {
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
 }
