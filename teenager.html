@@ -42,18 +42,18 @@
             <h3 class="questions">2. What is a common scam that affects older adults?</h3>
 
             <label class="questions">
+                <input type="radio" name="question2" value="wrong">
+                Birthday cards from family members.
+            </label><br>
+
+            <label class="questions">
+                <input type="radio" name="question2" value="wrong">
+                Free groceries from trusted stores.
+            </label><br>
+
+            <label class="questions">
                 <input type="radio" name="question2" value="right">
-                Free government money with no conditions.
-            </label><br>
-
-            <label class="questions">
-                <input type="radio" name="question2" value="wrong">
-                They usually have no access to money.
-            </label><br>
-
-            <label class="questions">
-                <input type="radio" name="question2" value="wrong">
-                They may be less familiar with modern technology.
+                Fake lottery or prize scams.
             </label><br><br>
 
             <button class="next">next</button>
@@ -159,17 +159,17 @@
                 $("#q" + c).show() // showing the current 
                 $(".next").click(function(){ //next button
                     if(c < 6){
-                        $("#q"+c).hide();
-                        c++
-                        $("#q"+c).show();     
+                        $("#q"+c).hide(); // hide current questions
+                        c++ // move to the next question
+                        $("#q"+c).show(); // show next question    
                     }
                     
                 })
                 $(".back").click(function(){ //back button
-                    if(c > 1){
-                        $("#q"+c).hide();
-                        c--
-                        $("#q"+c).show();     
+                    if(c > 1){ // this checks if the current question isnt the first question
+                        $("#q"+c).hide(); // hide current question
+                        c-- // moves back to the pervious 1 question
+                        $("#q"+c).show(); // shows the next question
                     }
                 })
                 
@@ -188,9 +188,13 @@
                             .addClass("right");
                         }
                     }
-                    $("#q"+c).hide()
+                    // loops from all the questions from 1 to 6 / total
+                    for(let i = 1; i <= total; i++){
+                        $("#q"+ 1).show(); // selects every id and shows it
+                    }
+                    $("#q"+c).hide() // hides the current amount of questions
                     
-                    $("#endText").text("You got "+r+" right")  
+                    $("#endText").text("You got "+r+" right") // displays a final text saying the amount of questions you got correct 
                 })
             })
             

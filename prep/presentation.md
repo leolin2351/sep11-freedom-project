@@ -1,16 +1,24 @@
 # Presentation Plan
 
 ## Hook
-* 
-
+* question "take a guess of the percentage of elderly being scammed
+* show a stat chart
 ## Product
-* 
+* how i thought of this idea
+* i will record a video of how it works
+* i will try to get different people from each age group for a test
 
 ## Process
-* 
+* I will first show how i was able to change files when the user clicks on a selected age group and pressed the button
+* I will show off how i was able to use chatgpt to make my life easier
+* show of my problems like learning how to style 
+* show how when the user presses sumbit they are able to see their old answers in red if its incorrect and green if its correct
+
 
 ## Conclusion
-* 
+* Takeaway: How to use AI because i was able to use ai to make identical copies of the same structure but with different information.
+* Takeaway: Embrace Failure because i sturggle so much with this project but i learn from it because when i wasnt able to style my text, i gave up but still pushed on until the next day i ask for help
+
 
 <!-- EXAMPLE
 
