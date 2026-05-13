@@ -192,14 +192,14 @@
                         }
                     }
                     // loops from all the questions from 1 to 6 / total
-                    for(let i = 1; i <= t || i <= 6; i++){
+                    for(let i = 1; i <= t; i++){
                         $("#q"+ i).show(); // selects every id and shows it
                     }
-                    $("#q"+c).hide() // hides the current amount of questions
+                    // $("#q"+c).hide() // hides the current amount of questions
                     
-                    $("#endText").text("You got "+r+" right") // displays a final text saying the amount of questions you got correct
-                    
-                    alert("You got "+r+" right"); // displays a final text saying the amount of questions you got correct
+                    $("#endText").text("You got "+r+" right");
+
+                    alert("You got "+r+" right"); // displays a final text saying the amount of questions you got correct 
                 })
             })
 
