@@ -9,25 +9,57 @@
         <link href="style.css" rel="stylesheet" type="text/css" />
         <style>
             /* CSS */
+            .bg {
+                background: linear-gradient(135deg, #74ebd5, #acb6e5); 
+                align-items: center;
+            }
+            .questions {
+                margin: 20px;
+                align-items: center;
+            }
+            input[type="radio"] {
+                transform: scale(1.5);
+                margin: 50px;
+            }
+            .age-choice{
+                display:block;
+                font-size: 30px;
+                margin: 30px
+            }
+            .age-option{
+                transform: scale(2);
+                margin: 30px;
+            }
         </style>
 
-        <title>MainHub</title>
-    </head>
-    <body class="bg">
-        <!-- MainHub -->
-        <h3>Whats your age group?</h3>
-        <input type="radio" name="age" value="teenager.html"> Teenager<br>
-        <input type="radio" name="age" value="adult.html"> Adult<br>
-        <input type="radio" name="age" value="elderly.html"> Elderly<br>
+            <title>MainHub</title>
+            </head>
+            <body class="bg">
+            <!-- MainHub -->
+            <h3 class ="questions" >Whats your age group?</h3>
+            <label class="age-choice">
+            <input class = "age-option" type="radio" name="age" value="teenager.html"> 
+            Teenager
+            </label>
+            
+            <label class="age-choice">
+            <input class = "age-option" type="radio" name="age" value="adult.html">
+            Adult
+            </label>
+            
+            <label class="age-choice">
+            <input class = "age-option" type="radio" name="age" value="elderly.html"> 
+            Elderly
+            </label>
         
-        <button id="continue">continue</button>
+            <button class="continue">continue</button>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
         
         <script>
             // JS
 
-            $("#continue").click(function(){
+            $(".continue").click(function(){
                 let choices = $("input[name='age']:checked").val(); //problem before was that it wasnt checking
                 console.log(choices)
                 if (choices) {

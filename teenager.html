@@ -173,28 +173,32 @@
                     }
                 })
                 
-                $(".submit").click(function(){
-                    var r = 0;
-                    for (let i = 1; i <= 6; i++){
+                $(".submit").click(function(){ // runs when the user clicks on the sumbit button
+                    var r = 0; //stores number of correct answer
+                    for (let i = 1; i <= 6; i++){ //loops through all 6 questions
+                        //if the user chose an answer then it will be selected 
                         let selected = $("input[name='question" + i + "']:checked");
+                        //find the correct answer from the user selected with the value as right
                         let correct = $("input[name='question" + i + "'][value='right']");
                         if (selected.length && selected.val() === "right") {
-                            r++;
-                            selected.parent().addClass("right");
+                            r++; // adds a point for each correct answer to the score
+                            selected.parent().addClass("right"); // highlight it as right
                         } else {
-                            selected.parent().addClass("wrong");
+                            selected.parent().addClass("wrong"); // highlight it as wrong
                             $("input[name='question" + i + "'][value='right']")
                             .parent()
-                            .addClass("right");
+                            .addClass("right"); // highlights it green
                         }
                     }
                     // loops from all the questions from 1 to 6 / total
-                    for(let i = 1; i <= total; i++){
+                    for(let i = 1; i <= t; i++){
                         $("#q"+ 1).show(); // selects every id and shows it
                     }
                     $("#q"+c).hide() // hides the current amount of questions
                     
-                    $("#endText").text("You got "+r+" right") // displays a final text saying the amount of questions you got correct 
+                    $("#endText").text("You got "+r+" right");
+
+                    alert("You got "+r+" right"); // displays a final text saying the amount of questions you got correct 
                 })
             })
             
